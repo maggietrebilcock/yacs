@@ -11,6 +11,8 @@
 # from .user_event import UserEvent
 # from .user_session import UserSession
 # from .professor import Professor
+# from .course_corequisite import CourseCorequisite
+
 
 from .database import Base
 from .database_session import SessionLocal

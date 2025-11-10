@@ -6,12 +6,22 @@ import os
 # Import Pydantic models and controllers
 from api_models import UserPydantic, SessionPydantic
 from controllers import user_controller, session_controller
+from tables.api_models import CourseCorequisiteCreate
+from db.course_corequisite import CourseCorequisite
+from db import database
+
+
 
 # --- Initialize FastAPI App ---
 app = FastAPI()
 
 # --- Add Middleware ---
 app.add_middleware(SessionMiddleware, secret_key="a_very_secret_key")
+
+# --- Add Helper Db Connection ---
+db_conn = database.db
+course_corequisite = CourseCorequisite(db_conn)
+
 
 # --- API Endpoints ---
 
@@ -48,3 +58,21 @@ def log_out(request: Request):
 # @app.get('/api/semester')
 # async def get_semesters():
 #     return course_controller.get_all_semesters()
+
+@app.post('/api/corequisite')
+async def add_corequisite(coreq: CourseCorequisiteCreate):
+    success, error = course_corequisite.add_corequisite(
+        coreq.department, coreq.level, coreq.corequisite
+    )
+    if success:
+        return {"message": "Corequisite added successfully"}
+    else:
+        return Response(content=str(error), status_code=500)
+
+
+@app.get('/api/corequisite/{department}/{level}')
+async def get_corequisites(department: str, level: int):
+    result, error = course_corequisite.get_corequisites(department, level)
+    if error:
+        return Response(content=str(error), status_code=500)
+    return result

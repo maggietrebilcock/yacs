@@ -45,6 +45,10 @@ class SubsemesterPydantic(BaseModel):
 
 class DefaultSemesterSetPydantic(BaseModel):
     default: str
-
+    
+class CourseCorequisiteCreate(BaseModel):
+    department: str
+    level: int
+    corequisite: str
 
     

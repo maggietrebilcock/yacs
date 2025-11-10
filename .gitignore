@@ -10,6 +10,9 @@ __pycache__/
 venv/
 .env
 
+# test artifacts
+backend/tests/tmp_test_db.sqlite
+
 # Docker
 *.log
 *.pid
