@@ -1,6 +1,6 @@
 # from .admin_settings import AdminSettings
 # from .course_corequisite import CourseCorequisite
-# from .course_prerequisite import CoursePrerequisite
+from .course_prerequisite import CoursePrerequisite
 # from .course_session import CourseSession
 # from .course import Course
 # from .event import Event

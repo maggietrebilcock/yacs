@@ -2,3 +2,5 @@ fastapi
 uvicorn[standard]
 pydantic
 itsdangerous
+sqlalchemy
+psycopg2-binary
