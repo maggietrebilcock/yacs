@@ -7,6 +7,7 @@ import { AppThemeProvider } from './components/theme/ThemeProvider';
 import App from './app/App';
 import HomePage from "./pages/HomePage";
 import FourYearPlannerPage from "./pages/FourYearPlannerPage";
+import ProfilePage from "./pages/ProfilePage";
 import { ScheduleProvider } from "./context/schedule-context";
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
@@ -19,6 +20,7 @@ root.render(
       <Route path="/" element={<App />}>
         <Route index element={<HomePage />} />
         <Route path="planner" element={<FourYearPlannerPage />} />
+        <Route path="profile" element={<ProfilePage />} />
       </Route>
     </Routes>
     </BrowserRouter>
