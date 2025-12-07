@@ -1,7 +1,7 @@
 import React from 'react';
 import { Bars3Icon } from '@heroicons/react/24/solid';
 import { Separator } from "./ui/Separator"
-import ClassSearch from './ui/ClassSearch';
+import ClassSearch from './ClassSearch';
 import ThemeToggle from './theme/ThemeToggle';
 import { NavLink } from "react-router-dom";
 

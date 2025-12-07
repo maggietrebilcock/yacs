@@ -7,7 +7,7 @@ import CatalogLoader from "../components/CatalogLoader";
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
-      <CatalogLoader path="/test-schedule.csv" />
+      <CatalogLoader path="/fall-2024.csv" />
       <Navbar />
       <Outlet /> 
     </div>

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { parseCoursesFromCsvText } from "../lib/parseSchedule";
 import type { Course } from "../types/schedule";
 
-export function useCourses(csvPath = "/test-schedule-full.csv") {
+export function useCourses(csvPath = "/fall-2024.csv") {
   const [courses, setCourses] = useState<Course[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError]   = useState<string | null>(null);

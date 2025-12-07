@@ -1,67 +1,287 @@
 import * as React from "react";
+import type { JSX } from "react";
 import { useSchedule } from "../context/schedule-context";
 import type { Course, Meeting } from "../types/schedule";
 import { Button } from "./ui/button";
+import { hasScheduleConflict } from "../utils/schedule";
+import { cn } from "../lib/utils";
+import { 
+  Clock, 
+  MapPin, 
+  User, 
+  AlertCircle, 
+  Trash2, 
+  ChevronDown, 
+  ChevronUp,
+  CalendarDays,
+  CheckCircle2
+} from "lucide-react";
+
+// --- Helper Functions ---
 
 function formatDays(ds: string[]) {
   return (ds || []).join("");
 }
 
+// --- Sub-Components ---
+
+interface SectionRowProps {
+  meeting: Meeting;
+  isSelected: boolean;
+  onSelect: () => void;
+  hasConflict: boolean;
+  disabled?: boolean;
+}
+
 function SectionRow({
   meeting,
-  checked,
-  onChange,
-}: {
-  meeting: Meeting;
-  checked: boolean;
-  onChange: () => void;
-}) {
+  isSelected,
+  onSelect,
+  hasConflict,
+  disabled,
+}: SectionRowProps): JSX.Element {
   return (
-    <label className="flex items-center justify-center rounded w-full">
-      <Button
-        type="button"
-        onClick={onChange}
-        className={[
-          "w-full text-left justify-start",   
-          "min-w-0",                          
-          "h-30",                            
-          checked ? "bg-background hover:bg-muted/50" : "hover:bg-muted",
-        ].join(" ")}
-      >
-        <div className="flex items-start gap-2 w-full min-w-0">
-          <div className="text-sm w-full min-w-0">
-            <div className="font-medium truncate">
-              {meeting.type} {meeting.section}
-            </div>
-            <div className="text-xs opacity-80 whitespace-normal break-words leading-snug">
-              {formatDays(meeting.days)} · {meeting.start}–{meeting.end}
-              {meeting.location ? ` · ${meeting.location}` : ""}
-              {meeting.instructor ? ` · ${meeting.instructor}` : ""}
-            </div>
+    <Button
+      type="button"
+      onClick={onSelect}
+      disabled={disabled}
+      variant="ghost" 
+      className={cn(
+        "relative flex h-auto w-full flex-col items-start gap-2 rounded-md border p-3 text-left transition-all shadow-sm",
+        
+        // DEFAULT STATE: Pop off the page using bg-background
+        "bg-background border-transparent hover:border-border hover:shadow-md",
+
+        // SELECTED STATE: Use a soft blue to match your footer vibe
+        isSelected && "border-blue-400/50 bg-blue-50/80 ring-1 ring-blue-400/50 dark:bg-blue-900/20 dark:border-blue-700",
+
+        // CONFLICT STATE
+        hasConflict && !isSelected && "opacity-70 bg-red-50/50 border-red-100 dark:bg-red-900/10 dark:border-red-900/30",
+        hasConflict && isSelected && "bg-red-50 border-red-500 ring-red-500 dark:bg-red-900/30",
+        
+        disabled && "cursor-not-allowed opacity-50"
+      )}
+    >
+      <div className="flex w-full items-center justify-between">
+        <div className="flex items-center gap-2">
+           {/* Checkbox circle visual */}
+          <div className={cn(
+            "h-4 w-4 rounded-full border flex items-center justify-center transition-colors",
+            isSelected ? "border-blue-500 bg-blue-500 text-white" : "border-muted-foreground/30 bg-transparent"
+          )}>
+            {isSelected && <CheckCircle2 className="h-3 w-3" />}
           </div>
+          <span className={cn(
+            "font-semibold text-sm",
+            isSelected ? "text-blue-700 dark:text-blue-300" : "text-foreground",
+            hasConflict && "text-red-600 dark:text-red-400"
+          )}>
+            {meeting.type} {meeting.section}
+          </span>
         </div>
-      </Button>
-    </label>
+        
+        {hasConflict && (
+          <div className="flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider text-red-600 dark:text-red-400">
+            <AlertCircle className="h-3 w-3" />
+            <span>Conflict</span>
+          </div>
+        )}
+      </div>
+
+      <div className="grid grid-cols-1 gap-1.5 pl-6 text-xs text-muted-foreground w-full">
+        <div className="flex items-center gap-2">
+          <CalendarDays className="h-3.5 w-3.5 shrink-0 opacity-70" />
+          <span className="font-medium text-foreground/80">
+            {formatDays(meeting.days)}
+          </span>
+          <span className="opacity-30">|</span>
+          <Clock className="h-3.5 w-3.5 shrink-0 opacity-70" />
+          <span>{meeting.start}–{meeting.end}</span>
+        </div>
+
+        {(meeting.location || meeting.instructor) && (
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+            {meeting.location && (
+              <div className="flex items-center gap-1.5 overflow-hidden">
+                <MapPin className="h-3.5 w-3.5 shrink-0 opacity-70" />
+                <span className="truncate">{meeting.location}</span>
+              </div>
+            )}
+            {meeting.instructor && (
+              <div className="flex items-center gap-1.5 overflow-hidden">
+                <User className="h-3.5 w-3.5 shrink-0 opacity-70" />
+                <span className="truncate">{meeting.instructor}</span>
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    </Button>
   );
 }
 
-export default function ScheduleList() {
+interface CourseCardProps {
+  course: Course;
+  expanded: boolean;
+  onToggleExpand: () => void;
+  onRemove: () => void;
+  allMeetingsForCourse: Meeting[];
+  otherCourses: Course[];
+  replaceCourseMeetings: (c: Course, m: Meeting[]) => void;
+}
+
+function CourseCard({
+  course,
+  expanded,
+  onToggleExpand,
+  onRemove,
+  allMeetingsForCourse,
+  otherCourses,
+  replaceCourseMeetings
+}: CourseCardProps) {
+  
+  const groupByType = (meetings: Meeting[]) => {
+    return meetings.reduce<Record<string, Meeting[]>>((acc, m) => {
+      (acc[m.type] ||= []).push(m);
+      return acc;
+    }, {});
+  };
+
+  const allByType = groupByType(allMeetingsForCourse);
+  const currentByType = groupByType(course.meetings);
+
+  const otherMeetings = otherCourses.flatMap(c => c.meetings);
+  const isStrictConflict = 
+    otherMeetings.length > 0 &&
+    allMeetingsForCourse.length > 0 &&
+    allMeetingsForCourse.every((m) => hasScheduleConflict(otherMeetings, m));
+
+  const onPickSection = (type: string, selected: Meeting) => {
+    const others = course.meetings.filter((m) => m.type !== type);
+    replaceCourseMeetings(course, [...others, selected]);
+  };
+
+  return (
+    <div className={cn(
+      "overflow-hidden rounded-xl border border-border transition-all",
+      // Use User's 'surface' variable for the header background
+      "bg-surface" 
+    )}>
+      {/* Card Header */}
+      <div 
+        className="flex cursor-pointer items-center justify-between p-3 md:p-4 hover:brightness-95 transition-all"
+        onClick={onToggleExpand}
+      >
+        <div className="flex min-w-0 flex-col gap-0.5">
+          <div className="flex items-center gap-2">
+            <h3 className="font-bold text-foreground truncate text-base">
+              {course.id} <span className="opacity-40 font-normal">|</span> {course.title}
+            </h3>
+            {isStrictConflict && (
+              <span className="inline-flex items-center rounded-md bg-red-100/80 px-2 py-0.5 text-[10px] font-bold text-red-800 dark:bg-red-900/50 dark:text-red-300 border border-red-200 dark:border-red-900">
+                CONFLICT
+              </span>
+            )}
+          </div>
+          <div className="flex items-center gap-2 text-xs text-foreground/60">
+             <span>
+               {Object.keys(allByType).length} Section Types
+             </span>
+             {course.meetings.length > 0 && (
+                 <>
+                 <span>•</span>
+                 <span className="text-foreground/80 font-medium">
+                    Selected: {course.meetings.map(m => `${m.type}-${m.section}`).join(", ")}
+                 </span>
+                 </>
+             )}
+          </div>
+        </div>
+
+        <div className="flex items-center gap-1 pl-4">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="h-8 w-8 text-foreground/50 hover:text-red-600 hover:bg-red-100/50"
+            onClick={(e) => {
+              e.stopPropagation();
+              onRemove();
+            }}
+          >
+            <Trash2 className="h-4 w-4" />
+          </Button>
+          <Button variant="ghost" size="icon" className="h-8 w-8 text-foreground/50">
+             {expanded ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
+          </Button>
+        </div>
+      </div>
+
+      {/* Expanded Content - Uses 'bg-background' to create contrast against 'bg-surface' */}
+      {expanded && (
+        <div className="border-t border-border/50 bg-background/50 p-4 shadow-inner">
+          {Object.keys(allByType).length === 0 ? (
+            <p className="text-sm text-muted-foreground italic">No section data available.</p>
+          ) : (
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {Object.entries(allByType).map(([type, options]) => {
+                const current = (currentByType[type] || [])[0] as Meeting | undefined;
+                const sortedOptions = [...options].sort((a, b) =>
+                  String(a.section).localeCompare(String(b.section), undefined, { numeric: true })
+                );
+
+                const sectionsOfOtherTypes = course.meetings.filter(m => m.type !== type);
+                const allCheckMeetings = [...sectionsOfOtherTypes, ...otherMeetings];
+
+                return (
+                  <div key={`${course.id}-${type}`} className="flex flex-col gap-3 min-w-0">
+                    <div className="flex items-center gap-2">
+                      <span className="text-xs font-bold uppercase tracking-wider text-muted-foreground/80">
+                        {type} Sections
+                      </span>
+                      <div className="h-px flex-1 bg-border/50"></div>
+                    </div>
+                    
+                    <div className="flex flex-col gap-2">
+                      {sortedOptions.map((opt) => {
+                        const conflicts = hasScheduleConflict(allCheckMeetings, opt);
+                        const isSelected = current
+                          ? current.section === opt.section && current.type === opt.type
+                          : false;
+
+                        return (
+                          <SectionRow
+                            key={`${course.id}-${type}-${opt.section}`}
+                            meeting={opt}
+                            isSelected={isSelected}
+                            hasConflict={conflicts}
+                            onSelect={() => onPickSection(type, opt)}
+                          />
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// --- Main Component ---
+
+export default function ScheduleList(): JSX.Element {
   const { courses, removeCourse, clear, catalog, addCourse } = useSchedule();
 
-  // --- Keep a stable display order by course.id ---
   const orderRef = React.useRef<Map<string, number>>(new Map());
   React.useEffect(() => {
-    // Assign an index to any course.id that doesn't have one yet
     const map = orderRef.current;
     let maxIndex = Math.max(-1, ...Array.from(map.values()));
-    for (let i = 0; i < courses.length; i++) {
-      const id = courses[i].id;
-      if (!map.has(id)) {
-        maxIndex += 1;
-        map.set(id, maxIndex);
-      }
+    for (const c of courses) {
+      if (!map.has(c.id)) map.set(c.id, ++maxIndex);
     }
-    // Optionally prune removed ids
     const currentIds = new Set(courses.map(c => c.id));
     for (const id of Array.from(map.keys())) {
       if (!currentIds.has(id)) map.delete(id);
@@ -70,140 +290,63 @@ export default function ScheduleList() {
 
   const displayCourses = React.useMemo(() => {
     const map = orderRef.current;
-    return [...courses].sort((a, b) => {
-      const ia = map.get(a.id) ?? 0;
-      const ib = map.get(b.id) ?? 0;
-      return ia - ib;
-    });
+    return [...courses].sort((a, b) => (map.get(a.id) ?? 0) - (map.get(b.id) ?? 0));
   }, [courses]);
 
   const [open, setOpen] = React.useState<Record<string, boolean>>({});
   const toggleOpen = (id: string) =>
     setOpen((prev) => ({ ...prev, [id]: !prev[id] }));
 
-  // Replace a course's meetings by removing and re-adding (id stays same).
-  // Visual order is preserved by the orderRef-based sort above.
   const replaceCourseMeetings = (course: Course, newMeetings: Meeting[]) => {
     removeCourse(course.id);
-    const updated: Course = { ...course, meetings: newMeetings };
-    addCourse(updated);
-    // No need to touch orderRef since id is unchanged.
-  };
-
-  const onPickSection = (course: Course, type: string, selected: Meeting) => {
-    const others = course.meetings.filter((m) => m.type !== type);
-    replaceCourseMeetings(course, [...others, selected]);
+    addCourse({ ...course, meetings: newMeetings });
   };
 
   const getAllMeetingsForCourse = (courseId: string): Meeting[] => {
-    const full = catalog.find((c) => c.id === courseId);
-    return full ? full.meetings : [];
-  };
-
-  const groupByType = (meetings: Meeting[]): Record<string, Meeting[]> => {
-    return meetings.reduce<Record<string, Meeting[]>>((acc, m) => {
-      (acc[m.type] ||= []).push(m);
-      return acc;
-    }, {});
+    return catalog.find((c) => c.id === courseId)?.meetings || [];
   };
 
   return (
-    <section className="mx-auto max-w-5xl">
-      <div className="mb-2 flex items-center justify-between">
-        <h2 className="text-lg font-semibold">Your Schedule</h2>
+    <div className="mx-auto max-w-5xl space-y-6">
+      <div className="flex items-center justify-between">
+        <div>
+          <h2 className="text-xl font-bold tracking-tight text-foreground">Your Schedule</h2>
+          <p className="text-sm text-muted-foreground">
+            {displayCourses.length} {displayCourses.length === 1 ? 'course' : 'courses'} selected
+          </p>
+        </div>
         {displayCourses.length > 0 && (
-          <button
-            className="rounded-md border border-border px-3 py-1 text-sm hover:bg-muted"
+          <Button 
+            variant="outline" 
+            size="sm" 
             onClick={clear}
+            className="border-border text-muted-foreground hover:bg-surface hover:text-foreground"
           >
             Clear all
-          </button>
+          </Button>
         )}
       </div>
 
       {displayCourses.length === 0 ? (
-        <p className="text-sm opacity-75">No classes selected yet.</p>
+        <div className="flex h-32 flex-col items-center justify-center rounded-xl border border-dashed border-border bg-surface/30 text-center">
+          <p className="text-sm text-muted-foreground">No classes selected yet.</p>
+        </div>
       ) : (
-        <ul className="divide-y divide-border rounded-md border border-border bg-surface">
-          {displayCourses.map((c) => {
-            const expanded = !!open[c.id];
-            const allMeetings = getAllMeetingsForCourse(c.id);
-            const allByType = groupByType(allMeetings);
-            const currentByType = groupByType(c.meetings);
-
-            return (
-              <li key={c.id}>
-                {/* Header row */}
-                <div
-                  className="flex items-center justify-between px-3 py-2 cursor-pointer hover:bg-muted/50"
-                  onClick={() => toggleOpen(c.id)}
-                >
-                  <span className="font-medium truncate">
-                    {c.id} — {c.title}
-                  </span>
-                  <div className="flex items-center gap-3">
-                    <span className="text-xs opacity-70">
-                      {expanded ? "Hide sections ▲" : "Show sections ▼"}
-                    </span>
-                    <button
-                      className="text-sm hover:opacity-60"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        removeCourse(c.id);
-                      }}
-                      aria-label={`Remove ${c.id}`}
-                    >
-                      ✕
-                    </button>
-                  </div>
-                </div>
-
-                {/* Expanded: section pickers grouped by type */}
-                {expanded && (
-                  <div className="px-3 pb-3">
-                    {Object.keys(allByType).length === 0 ? (
-                      <div className="text-sm opacity-75 px-2 py-2">
-                        No section data available for this class.
-                      </div>
-                    ) : (
-                      <div className="grid md:grid-cols-2 gap-3">
-                        {Object.entries(allByType).map(([type, options]) => {
-                          const current = (currentByType[type] || [])[0] as Meeting | undefined;
-                          const sortedOptions = [...options].sort((a, b) =>
-                            String(a.section).localeCompare(String(b.section), undefined, { numeric: true })
-                          );
-
-                          return (
-                            <div key={`${c.id}-${type}`} className="rounded-md border border-border min-w-0">
-                              <div className="px-3 py-2 text-sm font-semibold bg-muted/50">
-                                {type} Sections
-                              </div>
-                              <div className="p-2 space-y-1 min-w-0">
-                                {sortedOptions.map((opt) => (
-                                  <SectionRow
-                                    key={`${c.id}-${type}-${opt.section}`}
-                                    meeting={opt}
-                                    checked={
-                                      current
-                                        ? current.section === opt.section && current.type === opt.type
-                                        : false
-                                    }
-                                    onChange={() => onPickSection(c, type, opt)}
-                                  />
-                                ))}
-                              </div>
-                            </div>
-                          );
-                        })}
-                      </div>
-                    )}
-                  </div>
-                )}
-              </li>
-            );
-          })}
-        </ul>
+        <div className="flex flex-col gap-4">
+          {displayCourses.map((c) => (
+            <CourseCard 
+              key={c.id}
+              course={c}
+              expanded={!!open[c.id]}
+              onToggleExpand={() => toggleOpen(c.id)}
+              onRemove={() => removeCourse(c.id)}
+              allMeetingsForCourse={getAllMeetingsForCourse(c.id)}
+              otherCourses={displayCourses.filter(other => other.id !== c.id)}
+              replaceCourseMeetings={replaceCourseMeetings}
+            />
+          ))}
+        </div>
       )}
-    </section>
+    </div>
   );
 }
