@@ -33,7 +33,7 @@
         "subjectCourse": "ARCH1960",
         "faculty": [
             {
-                "bannerId": "1114362",
+                "bannerId": "526540",
                 "category": null,
                 "class": "net.hedtech.banner.student.faculty.FacultyResultDecorator",
                 "courseReferenceNumber": "90004",
@@ -118,7 +118,7 @@
         "subjectCourse": "ARCH1960",
         "faculty": [
             {
-                "bannerId": "1114886",
+                "bannerId": "527068",
                 "category": null,
                 "class": "net.hedtech.banner.student.faculty.FacultyResultDecorator",
                 "courseReferenceNumber": "90006",
@@ -128,7 +128,7 @@
                 "term": "202112"
             },
             {
-                "bannerId": "1114362",
+                "bannerId": "526540",
                 "category": null,
                 "class": "net.hedtech.banner.student.faculty.FacultyResultDecorator",
                 "courseReferenceNumber": "90006",
@@ -213,7 +213,7 @@
         "subjectCourse": "CSCI1960",
         "faculty": [
             {
-                "bannerId": "1114975",
+                "bannerId": "527156",
                 "category": null,
                 "class": "net.hedtech.banner.student.faculty.FacultyResultDecorator",
                 "courseReferenceNumber": "90002",
@@ -298,7 +298,7 @@
         "subjectCourse": "ITWS2961",
         "faculty": [
             {
-                "bannerId": "1114752",
+                "bannerId": "526913",
                 "category": null,
                 "class": "net.hedtech.banner.student.faculty.FacultyResultDecorator",
                 "courseReferenceNumber": "90013",
@@ -383,7 +383,7 @@
         "subjectCourse": "STSO2960",
         "faculty": [
             {
-                "bannerId": "1114969",
+                "bannerId": "527150",
                 "category": null,
                 "class": "net.hedtech.banner.student.faculty.FacultyResultDecorator",
                 "courseReferenceNumber": "90012",
