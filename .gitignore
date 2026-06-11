@@ -8,7 +8,11 @@ __pycache__/
 *.pyo
 *.pyd
 venv/
+.venv/
 .env
+
+# Secrets (never commit credentials)
+backend/configs/secrets.yaml
 
 # test artifacts
 backend/tests/tmp_test_db.sqlite
