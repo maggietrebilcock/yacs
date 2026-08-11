@@ -1,0 +1,2627 @@
+{
+    "Schedule 1": {
+        "score": -133.25,
+        "sections": [
+            {
+                "crn": "35263",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39012",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0900",
+                        "end_time": "0950"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "38533",
+                "subject_course": "INQR1960",
+                "title": "WRITING FOR GLOBAL AUDIENCES",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 2": {
+        "score": -133.25,
+        "sections": [
+            {
+                "crn": "35954",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39012",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0900",
+                        "end_time": "0950"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "38533",
+                "subject_course": "INQR1960",
+                "title": "WRITING FOR GLOBAL AUDIENCES",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 3": {
+        "score": -148.85,
+        "sections": [
+            {
+                "crn": "35263",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39011",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0800",
+                        "end_time": "0850"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "38533",
+                "subject_course": "INQR1960",
+                "title": "WRITING FOR GLOBAL AUDIENCES",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 4": {
+        "score": -148.85,
+        "sections": [
+            {
+                "crn": "35954",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39011",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0800",
+                        "end_time": "0850"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "38533",
+                "subject_course": "INQR1960",
+                "title": "WRITING FOR GLOBAL AUDIENCES",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 5": {
+        "score": -159.5,
+        "sections": [
+            {
+                "crn": "35263",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39012",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0900",
+                        "end_time": "0950"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36033",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "38533",
+                "subject_course": "INQR1960",
+                "title": "WRITING FOR GLOBAL AUDIENCES",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 6": {
+        "score": -159.5,
+        "sections": [
+            {
+                "crn": "35954",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39012",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0900",
+                        "end_time": "0950"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36033",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "38533",
+                "subject_course": "INQR1960",
+                "title": "WRITING FOR GLOBAL AUDIENCES",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 7": {
+        "score": -162.05,
+        "sections": [
+            {
+                "crn": "35263",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39012",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0900",
+                        "end_time": "0950"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "37266",
+                "subject_course": "INQR1250",
+                "title": "DESIGNING CLIMATE JUSTICE",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 8": {
+        "score": -162.05,
+        "sections": [
+            {
+                "crn": "35954",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39012",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0900",
+                        "end_time": "0950"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "37266",
+                "subject_course": "INQR1250",
+                "title": "DESIGNING CLIMATE JUSTICE",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 9": {
+        "score": -162.05,
+        "sections": [
+            {
+                "crn": "35263",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39012",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0900",
+                        "end_time": "0950"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "37423",
+                "subject_course": "INQR1560",
+                "title": "MEDIA AND SOCIETY",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 10": {
+        "score": -162.05,
+        "sections": [
+            {
+                "crn": "35954",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39012",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0900",
+                        "end_time": "0950"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "37423",
+                "subject_course": "INQR1560",
+                "title": "MEDIA AND SOCIETY",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 11": {
+        "score": -162.05,
+        "sections": [
+            {
+                "crn": "35263",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39012",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0900",
+                        "end_time": "0950"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "38532",
+                "subject_course": "INQR1960",
+                "title": "WRITING FOR GLOBAL AUDIENCES",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 12": {
+        "score": -162.05,
+        "sections": [
+            {
+                "crn": "35954",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39012",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0900",
+                        "end_time": "0950"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "38532",
+                "subject_course": "INQR1960",
+                "title": "WRITING FOR GLOBAL AUDIENCES",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 13": {
+        "score": -162.45,
+        "sections": [
+            {
+                "crn": "36051",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39012",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0900",
+                        "end_time": "0950"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "38533",
+                "subject_course": "INQR1960",
+                "title": "WRITING FOR GLOBAL AUDIENCES",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 14": {
+        "score": -162.45,
+        "sections": [
+            {
+                "crn": "36063",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39012",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0900",
+                        "end_time": "0950"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "38533",
+                "subject_course": "INQR1960",
+                "title": "WRITING FOR GLOBAL AUDIENCES",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 15": {
+        "score": -175.1,
+        "sections": [
+            {
+                "crn": "35263",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39011",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0800",
+                        "end_time": "0850"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36033",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "38533",
+                "subject_course": "INQR1960",
+                "title": "WRITING FOR GLOBAL AUDIENCES",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 16": {
+        "score": -175.1,
+        "sections": [
+            {
+                "crn": "35954",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39011",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0800",
+                        "end_time": "0850"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36033",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "38533",
+                "subject_course": "INQR1960",
+                "title": "WRITING FOR GLOBAL AUDIENCES",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 17": {
+        "score": -177.65,
+        "sections": [
+            {
+                "crn": "35263",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39011",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0800",
+                        "end_time": "0850"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "37266",
+                "subject_course": "INQR1250",
+                "title": "DESIGNING CLIMATE JUSTICE",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 18": {
+        "score": -177.65,
+        "sections": [
+            {
+                "crn": "35954",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39011",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0800",
+                        "end_time": "0850"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "37266",
+                "subject_course": "INQR1250",
+                "title": "DESIGNING CLIMATE JUSTICE",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 19": {
+        "score": -177.65,
+        "sections": [
+            {
+                "crn": "35263",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39011",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0800",
+                        "end_time": "0850"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "37423",
+                "subject_course": "INQR1560",
+                "title": "MEDIA AND SOCIETY",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 20": {
+        "score": -177.65,
+        "sections": [
+            {
+                "crn": "35954",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39011",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0800",
+                        "end_time": "0850"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "37423",
+                "subject_course": "INQR1560",
+                "title": "MEDIA AND SOCIETY",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 21": {
+        "score": -177.65,
+        "sections": [
+            {
+                "crn": "35263",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39011",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0800",
+                        "end_time": "0850"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "38532",
+                "subject_course": "INQR1960",
+                "title": "WRITING FOR GLOBAL AUDIENCES",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 22": {
+        "score": -177.65,
+        "sections": [
+            {
+                "crn": "35954",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1600",
+                        "end_time": "1750"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39011",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0800",
+                        "end_time": "0850"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "38532",
+                "subject_course": "INQR1960",
+                "title": "WRITING FOR GLOBAL AUDIENCES",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 23": {
+        "score": -178.05,
+        "sections": [
+            {
+                "crn": "36051",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39011",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0800",
+                        "end_time": "0850"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "38533",
+                "subject_course": "INQR1960",
+                "title": "WRITING FOR GLOBAL AUDIENCES",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 24": {
+        "score": -178.05,
+        "sections": [
+            {
+                "crn": "36063",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39011",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0800",
+                        "end_time": "0850"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36035",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "38533",
+                "subject_course": "INQR1960",
+                "title": "WRITING FOR GLOBAL AUDIENCES",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    }
+                ]
+            }
+        ]
+    },
+    "Schedule 25": {
+        "score": -188.7,
+        "sections": [
+            {
+                "crn": "36051",
+                "subject_course": "CSCI1200",
+                "title": "DATA STRUCTURES",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Friday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1800",
+                        "end_time": "1950"
+                    }
+                ]
+            },
+            {
+                "crn": "39012",
+                "subject_course": "MATH1020",
+                "title": "CALCULUS II",
+                "meeting_times": [
+                    {
+                        "day": "Tuesday",
+                        "begin_time": "0900",
+                        "end_time": "0950"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Monday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1600",
+                        "end_time": "1720"
+                    }
+                ]
+            },
+            {
+                "crn": "36033",
+                "subject_course": "BIOL1010",
+                "title": "INTRODUCTION TO BIOLOGY",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1000",
+                        "end_time": "1150"
+                    }
+                ]
+            },
+            {
+                "crn": "36037",
+                "subject_course": "BIOL1015",
+                "title": "INTRODUCTION TO BIOLOGY LABORATORY",
+                "meeting_times": [
+                    {
+                        "day": "Wednesday",
+                        "begin_time": "1000",
+                        "end_time": "1250"
+                    }
+                ]
+            },
+            {
+                "crn": "38533",
+                "subject_course": "INQR1960",
+                "title": "WRITING FOR GLOBAL AUDIENCES",
+                "meeting_times": [
+                    {
+                        "day": "Monday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    },
+                    {
+                        "day": "Thursday",
+                        "begin_time": "1400",
+                        "end_time": "1550"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -72,7 +72,7 @@
         "subjectCourse": "ITWS2961",
         "faculty": [
             {
-                "bannerId": "1114752",
+                "bannerId": "526913",
                 "category": null,
                 "class": "net.hedtech.banner.student.faculty.FacultyResultDecorator",
                 "courseReferenceNumber": "90016",
@@ -157,7 +157,7 @@
         "subjectCourse": "PSYC1960",
         "faculty": [
             {
-                "bannerId": "1114510",
+                "bannerId": "526688",
                 "category": null,
                 "class": "net.hedtech.banner.student.faculty.FacultyResultDecorator",
                 "courseReferenceNumber": "90017",
@@ -242,7 +242,7 @@
         "subjectCourse": "PSYC4960",
         "faculty": [
             {
-                "bannerId": "1114858",
+                "bannerId": "527039",
                 "category": null,
                 "class": "net.hedtech.banner.student.faculty.FacultyResultDecorator",
                 "courseReferenceNumber": "90021",
@@ -327,7 +327,7 @@
         "subjectCourse": "STSO2960",
         "faculty": [
             {
-                "bannerId": "1114969",
+                "bannerId": "527150",
                 "category": null,
                 "class": "net.hedtech.banner.student.faculty.FacultyResultDecorator",
                 "courseReferenceNumber": "90020",
